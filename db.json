@@ -1,10 +1,14 @@
 {
-  "users": [
-      {"id": 1, "name": "Raghava Joijode1", "email":"abcd1@efg.com"},
-      {"id": 2, "name": "Raghava Joijode2", "email":"abcd2@efg.com"},
-      {"id": 3, "name": "Raghava Joijode3", "email":"abcd3@efg.com"},
-      {"id": 4, "name": "Raghava Joijode4", "email":"abcd4@efg.com"},
-      {"id": 5, "name": "Raghava Joijode5", "email":"abcd5@efg.com"}
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
   ],
-  "profile_id": "ragh"
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
